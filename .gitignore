@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+backend/venv/
+.pytest_cache/
+
+# SQLite Databases
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+auction.db
+
+# Node / Vite
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+.DS_Store
+*.local
